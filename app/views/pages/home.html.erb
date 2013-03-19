@@ -2,25 +2,8 @@
     <h1>Cool Social Travel Site</h1>
   <p>The ultimate social travel tool</p>
   <p>
-  	<!-- Button to trigger modal -->
-	<a href="#myModal" role="button" class="btn pull-right"  data-toggle="modal">Sign Up Now</a>
-	<!-- Modal -->
-	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-header">
-	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-	<h3 id="myModalLabel">Nice Modal!</h3>
-	</div>
-	<div class="modal-body">
-	<p>Oh Yeah, this is awesome. Totally Modaling...</p>
-	</div>
-	<div class="modal-footer">
-	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-	</div>
-	</div>
-   
-     
-    </a>
-  </p>
+ <%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-large btn-primary pull-right" %>
+</p>
 </div>
 
 <ul class="thumbnails">
