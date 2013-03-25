@@ -1,0 +1,13 @@
+<% unless user_signed_in? %>
+
+<div class="hero-unit">
+    <h1>Cool Social Travel Site</h1>
+  <p>The ultimate social travel tool</p>
+  <p>
+ <%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-large btn-primary pull-right" %>
+</p>
+</div>
+
+<% end %>
+
+
