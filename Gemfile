@@ -6,6 +6,8 @@ gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.4.1"
 gem 'aws-sdk'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 group :production do
 	gem 'pg'
