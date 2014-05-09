@@ -73,8 +73,8 @@ config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
     :bucket => "omrails1234",
-    :access_key_id => "AKIAJM4PKKA5PUN4QCIA",
-    :secret_access_key => "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"
+    :access_key_id => "#",
+    :secret_access_key => "#"
   }
 }
 
